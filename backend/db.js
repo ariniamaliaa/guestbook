@@ -1,7 +1,7 @@
 const mysql = require("mysql2");
 
 const db = mysql.createConnection({
-  host: "localhost",
+  host: "guestbook-bay-tau.vercel.app",
   user: "root",
   password: "", // default XAMPP kosong
   database: "guestbook"
